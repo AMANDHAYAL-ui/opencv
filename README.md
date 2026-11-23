@@ -11,6 +11,14 @@
 * Issue tracking: <https://github.com/opencv/opencv/issues>
 * Additional OpenCV functionality: <https://github.com/opencv/opencv_contrib>
 * Donate to OpenCV: <https://opencv.org/support/>
+* import cv2
+
+image = cv2.imread("image.jpg")
+
+cv2.imshow("My First Image", image)
+
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
 
 ### Contributing
